@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" integrity="sha256-Ev8y2mML/gGa4LFVZgNpMTjKwj34q4pC4DcseWeRb9w=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 
@@ -26,7 +28,7 @@
           </div>
 
         <div id= "feed" class= "item-6x">
-          <div class= "feedbox">
+          <!-- <div class= "feedbox">
             <div class= "profile">
               <img class= "profilePic" src="https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png" alt="">
               <h1 class= "name"> Sarah's Discovery</h1>
@@ -41,56 +43,54 @@
   </div>
 </div>
 
-<div class="caption">
+<div class= "likeButtonContainer">
+
+
+  <button id="likeButton" onclick= "check()"> <i class="fas fa-heart fa-2x"  ></i> </button>
+
+</div>
+
+<div class="captionContainer">
   <h5 class= "nameID"> Sarah </h5>
   <p class= "caption"> lol hi </p>
 
 </div>
+
+<div id= "commentsOutput"> </div>
+
 <div class= "comments">
-  <div class= "commentsOutput">
   <input type="text" id="name">
   <button id="commentButton"> Comment </button>
 
-</div>
-</div>
+
+</div> -->
 </div>
           <!-- <div class= "feedContent"> -->
 
-            </div>
-
           <div class= "sideProfile item-2x">
+            <img class= "profilePic" src="https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png" alt="">
             <div id= "instructionProfile">
-
             </div>
+          </div>
+
+          <div class= "instructions item-2x">
+
           </div>
           </div>
 
       <!-- </div>
  -->
+
+
+
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js" integrity="sha256-CnNQJd80jPuIDyeQRRq7+Wgt+++Kl0dZLt4ETNmxMIw=" crossorigin="anonymous"></script>
+<script>
+  document.getElementById("instructionProfile").innerHTML = localStorage.getItem("textvalue");
+</script>
 <script src="script2.js"></script>
 
 
   </body>
+
 </html>
-
-
-<!--
-<div id= "specialDraw">
-      <h1 id= aboutHeading> It's Lucky Draw thyme...</h1>
-
-      <label>Type in your name and click the button for your lucky draw!
-        <br><br>
-  <input type="text" id="name">
-
-  <br>
-  <button id="luckyButton">DRAW!</button>
-
-</label>
-
-<div id="lucky-output"></div>
-    </div>
-
-  </div>
- -->

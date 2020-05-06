@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +10,7 @@
 
   /* transition: all 2s; */
 
-  /* border: white 1px solid; */
+  /* border: black 1px solid; */
 }
 
 ::-webkit-scrollbar {
@@ -31,7 +33,7 @@ html, body {
   background-color: black;
 }
 
-#typewriteText, #typewriteText2, #typewriteText3, #typewriteText4 {
+#typewriteTextt, #typewriteText2, #typewriteText3, #typewriteText4 {
   font-family: 'Roboto Mono', monospace;
   color: white;
 }
@@ -120,7 +122,8 @@ html, body {
 }
 
 #instructionProfile {
-
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
 }
 
 @keyframes appear {
@@ -148,6 +151,7 @@ html, body {
 
 #fillin {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -211,7 +215,7 @@ html, body {
 
   margin-bottom: 10vmin;
   background-color: white;
-  border: 0.2vmin solid #eee;
+  border: 0.3vmin solid #eee;
 }
 
 .profile {
@@ -247,6 +251,7 @@ html, body {
 
 .caption {
   width: 100%;
+  /* box-shadow: 0 0.2vmin #eee; */
 
 }
 
@@ -256,17 +261,88 @@ html, body {
 
 
 .sideProfile {
+  display: flex;
+  flex-direction: row;
+
   grid-column-start: 9;
   grid-row-start: 2;
 
-  height: 20vmin;
+  height: 10vmin;
 
   margin-top: 15vmin;
+
+  /* border: 0.3vmin solid #eee; */
+
+  align-items: center;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+
+  grid-column-start: 9;
+  grid-row-start: 2;
+
+  height: 30vmin;
 
   border: 0.3vmin solid #eee;
 
 
+  margin-top: 25vmin;
+}
 
+#name {
+  height: 5vmin;
+  width: 85%;
+  border: none;
+  margin-top: 2vmin;
+}
+
+#commentButton {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: transparent;
+  font-weight: bold;
+  /* border: 0.3vmin solid #2e2e2e; */
+  color: blue;
+  padding: 1vmin 2vmin;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vmin;
+  cursor: pointer;
+  bottom: 30vmin;
+  border: none;
+  margin-left: 0.3vmin;
+}
+
+.comments {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 0 -0.2vmin #eee;
+
+}
+
+.fa-heart {
+
+  margin: 0.5vmin 0 0.5vmin 1vmin;
+}
+
+#likeButton {
+  color: #7a7979;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 1.5vmin; */
+  cursor: pointer;
+  /* bottom: 30vmin; */
+  width: 4vmin;
+}
+
+#likeButton:hover {
+  color: tomato;
 }
 
 

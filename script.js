@@ -1,5 +1,24 @@
+// // Can also be included with a regular script tag
+// import Typed from 'typed.js';
+//
+// var options = {
+//   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+//   typeSpeed: 40
+// };
+//
+// var typed = new Typed('.element', options);
+//
+//
+//
+//
+//
+//
+//
+
 $(document).ready(function(){
-    $('#typewriteText').typewrite({
+    $('#typewriteTextt').typewrite({
+
+      blinkingCursor: false,
         actions: [
             {type: 'Hello.'},
             {type: '<br>'},
@@ -23,6 +42,8 @@ $(document).ready(function(){
     $('#typewriteText2').typewrite({
       speed: 20,
       selectedText: '#cf1f1f',
+      blinkingCursor: false,
+
 
         actions: [
             {type: 'Social media is a big part of many teens\' lives.'},

@@ -4,24 +4,40 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title></title>
+
+    <script>
+
+      function passvalues() {
+        var firstname= document.getElementById("txt").value;
+        localStorage.setItem("textvalue", firstname);
+        return false;
+      }
+
+    </script>
   </head>
+
   <body>
     <div id= "firstcontainer">
       <div id= "fillin">
 
         <label class= "text"> Type in your name.
           <br><br>
-    <input id= "input" type="text" id="name">
+        </label>
+<!-- <form action="index2.html"> -->
 
-    <br>
+    <input type="text" id="txt" placeholder="Your name...">
+    <a href= "index2.html"><button type="submit" id="button4" onclick= "passvalues()"> Enter Simulation</button></a>
+<!-- </form> -->
 
-    <a href="index2.html" id="button4">  Run Simulation  </a>
-  </label>
+
+
+    <!-- <input type="Run Simulation" value="Click" id= "button4" onlick= "passvalues()"> -->
+    <!-- <a href="index2.html" id="button4" onclick= "passvalues()">  Run Simulation  </a> -->
 
     </div>
 
-<script src= "script2.js">
+<script src= "script2.js"></script>
 
-</script>
+
   </body>
 </html>
