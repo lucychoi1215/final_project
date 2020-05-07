@@ -345,6 +345,22 @@ html, body {
   color: tomato;
 }
 
+.nameID {
+  margin: 3vmin 1vmin 3vmin 1vmin;
+  }
+
+.captionContainer {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+#commentsOutput {
+  margin-left: 1vmin;
+  margin-bottom: 1vmin;
+}
+
 
 .item-2x {
   grid-column-end: span 2;
