@@ -5,21 +5,21 @@ let jsonDatabase = [
     {
         "glideClass": "glide-01",
         "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-        "name0": "Sarah",
+        "name0": "slimloaded392",
         "feedImg1": "https://www.welt.de/img/vermischtes/mobile157713358/1692506607-ci102l-w1024/Young-woman-sunbathing-on-deck-of-boat.jpg",
         "feedImg2": "https://s24193.pcdn.co/wp-content/uploads/2017/06/ThighGap.png",
-        "nameID": "Sarah",
-        "caption": "I think I won the #thighgap challenge 🤭 DM me for details if you want to look good in your bikinis in the summer!😍 #slimmingworld #weightloss #chubbygirl",
+        "nameID": "slimloaded392",
+        "caption": "I think I won the #thighgap challenge 🤭 DM me for details if you want to look good in your bikinis this summer!😍 #slimmingworld #weightloss #chubbygirl",
         "commentbutton0": "Comment",
     },
 
     {
         "glideClass": "glide-02",
         "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-        "name1": "Sarah",
+        "name1": "melissa_raynold72",
         "feedImg1": "https://femmesdetunisie.com/wp-content/uploads/2016/03/a4.jpg",
         "feedImg2": "https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/Capture_decran_2016-04-04_a_12.42.23.png?itok=D7r2IAXa",
-        "nameID": "Sarah",
+        "nameID": "melissa_raynold72",
         "caption": "Thanks for the nomination @dkowkd23 and @fitslim! 🤩🤩🤩 #challengeaccepted #a4waist #fit #papergirl",
         "commentbutton1": "Comment",
 
@@ -27,20 +27,20 @@ let jsonDatabase = [
     {
         "glideClass": "glide-03",
         "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-        "name2": "Sarah",
+        "name2": "grace_ias_23",
         "feedImg1": "https://s.abcnews.com/images/Lifestyle/GTY_collar_bone_sk_150617_16x9_1600.jpg",
         "feedImg2": "https://nextshark.com/wp-content/uploads/2018/08/ttt-1280x720.jpg",
-        "nameID": "Sarah",
-        "caption": "So eh.... speaking of this #collarbonechallenge... Does my pet fish count?! #itsharmless #nofishhurt #whosnext ",
+        "nameID": "grace_ias_23",
+        "caption": "So eh.... speaking of this #collarbonechallenge... Does my pet fish count?! #itsharmless #nofishwashurt #whosnext ",
         "commentbutton2": "Comment",
 
     }, {
         "glideClass": "glide-04",
         "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-        "name3": "Sarah",
+        "name3": "monogramslim22",
         "feedImg1": "https://www.red17.com/pics/2015/06/65+6656+.jpg",
         "feedImg2": "https://i2-prod.mirror.co.uk/incoming/article5866459.ece/ALTERNATES/s615/MAIN-bellybutton-challenge.jpg",
-        "nameID": "Sarah",
+        "nameID": "monogramslim22",
         "caption": "The internet made me do it 😩😩 Is it fine if you can only wrap your right arm around but not the left arm?? #askingforafriend #itsharmless #sowhynot ",
         "commentbutton3": "Comment",
 
@@ -48,10 +48,10 @@ let jsonDatabase = [
     {
         "glideClass": "glide-05",
         "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-        "name4": "Sarah",
+        "name4": "happyday_zzz",
         "feedImg1": "https://img.gentside.com/article/buzz/le-panty-challenge-le-nouveau-defi-ridicule-qui-affole-les-reseaux-sociaux_aecf81eb866b8d1ecce6b7cba60fa8160a7b15aa.jpg",
         "feedImg2": "https://assets.afcdn.com/story/20160706/935472_w980h638c1cx1013cy3253.jpg",
-        "nameID": "Sarah",
+        "nameID": "happyday_zzz",
         "caption": "Don't argue with me if your panties don't look like this when you pull them down 😤😤 #pantychallenge #clean",
         "commentbutton4": "Comment",
 
@@ -59,10 +59,10 @@ let jsonDatabase = [
     {
         "glideClass": "glide-06",
         "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-        "name5": "Sarah",
+        "name5": "wonder_0908",
         "feedImg1": "https://sf2.bibamagazine.fr/wp-content/uploads/biba/2016/04/L-iPhone-6-Challenge-le-nouveau-defi-minceur-inquietant-sur-le-web.png",
         "feedImg2": "https://www.elitereaders.com/wp-content/uploads/2016/07/iPhone-6-Challenge.jpg",
-        "nameID": "Sarah",
+        "nameID": "wonder_0908",
         "caption": "Are you skinny enough to hide behind an Iphone 6? If not, find out about Sarah's discovery! I lost 20Ib in the last month and living the best life ever 🤭 #skinny #beautiful #girls",
         "commentbutton5": "Comment",
 
@@ -236,5 +236,4 @@ function hi(event) {
 function check() {
 
     alert("87% of women and 65% of men compare their bodies to images they consume on social and traditional media. In that comparison, a stunning 50% of women and 37% of men compare their bodies unfavorably." +"\r\n" +"\r\n" + "Do you still want to contribute to this post getting more publicity?");
-    console.log("working");
 }
