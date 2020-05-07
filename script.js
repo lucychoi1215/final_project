@@ -20,20 +20,19 @@ $(document).ready(function(){
 
       blinkingCursor: false,
         actions: [
-            {type: 'Hello.'},
+            {type: 'Hello,'},
+            {type: '<br>'},
+            {type: '<br>'},
             {type: '<br>'},
             {type: 'Welcome to Instagram'},
             {delay: 1500},
             {remove: {num: 3, type: 'stepped'}},
-            {select: {from: 20, to: 26}},
+            {select: {from: 26, to: 34}},
             {delay: 2000},
             {remove: {num: 6, type: 'whole'}},
             {delay: 300},
-            {type: 'Outstagram.'},
-            {type: '<br>'},
-            {type: '<br>'},
-            {delay: 1500},
-            {type: 'This is where the true documentation lies... '}
+            {type: 'Outstagram...'}
+
         ]
     });
 });
@@ -46,10 +45,10 @@ $(document).ready(function(){
 
 
         actions: [
-            {type: 'Social media is a big part of many teens\' lives.'},
+            {type: 'Social media is a big part of many people\'s lives.'},
             {type: '<br>'},
             {delay: 1500},
-            {type: 'It can provide them with a platform to connect'},
+            {type: 'It can provide us with a platform to connect'},
             {type: '<br>'},
             {type: '<br>'},
             {delay: 1500},
@@ -57,12 +56,12 @@ $(document).ready(function(){
             {type: '<br>'},
             {type: '<br>'},
             {delay: 1500},
-            {type: 'it can also affect their self-esteem by presenting boys and girls with their definition of what is '},
+            {type: 'it can also affect our self-esteem by presenting social media\'s own definition of what is '},
             {type: '<br>'},
             {type: '<br>'},
             {delay: 1500},
-            {type: ' “perfect” or “beautiful”. '},
-            {select: {from:218, to: 243}}
+            {type: '“perfect” or “beautiful”. '},
+            {select: {from:201, to: 234}}
         ]
     });
 });
@@ -76,16 +75,18 @@ $(document).ready(function(){
             {type: 'Not sure what this means?'},
             {type: '<br>'},
             {delay: 1500},
-            {type: 'I have compiled a collection of posts and videos'},
-            {type: '<br>'},
-            {type: 'within the last few days to show you exactly what it means to be exposed to'},
-            {type: '<br>'},
-            {type: 'the social media\'s ideal "beauty".'},
+            {type: 'I have compiled a collection of body shaming challenges that had gone viral on the internet.'},
             {type: '<br>'},
             {type: '<br>'},
-            {delay: 1500},
-            {type: 'Would you like to peek through what I found? '},
-            {select: {from:161, to: 191}}
+            {type: '<br>'},
+            {type: '<br>'},
+            {delay: 3000},
+            {type: 'Would you like to experience what it means to be exposed to ...'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {delay: 3000},
+            {type: 'the social media\'s ideal "beauty"?'},
+            {select: {from:201, to: 235}}
         ]
     });
 });
@@ -112,6 +113,61 @@ $(document).ready(function(){
             {type: '-Mel Schwartz-'},
 
             {select: {from:161, to: 191}}
+        ]
+    });
+});
+
+
+$(document).ready(function(){
+    $('#typewriteText5').typewrite({
+      speed: 12,
+      selectedText: '#cf1f1f',
+
+        actions: [
+            {type: 'Adolescent girls'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {delay: 1500},
+            {type: 'are a key audience on social media'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {type: 'who are highly susceptible to unrealistic ideas of what a perfect body is...'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {delay: 1500},
+            {type: 'and trends like this can adversely affect them.'},
+
+            {select: {from:172, to: 181}}
+        ]
+    });
+});
+
+$(document).ready(function(){
+    $('#typewriteText6').typewrite({
+      speed: 12,
+      selectedText: '#cf1f1f',
+
+        actions: [
+            {type: 'The Instagram algorithm gives priority to posts with higher engagement'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {delay: 1500},
+            {type: 'meaning that the more likes and comments your post receives,'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {type: 'the more people will see your post.'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {delay: 1500},
+            {type: 'While each challenge focuses on a different part of the body...'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {type: '<br>'},
+            {delay: 1500},
+            {type: ' they all have one thing in common:'}
+
         ]
     });
 });

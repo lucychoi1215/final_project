@@ -1,220 +1,229 @@
 
 let feedGridElement = document.getElementById('feed');
 
-let jsonDatabase= [
-{
-  "glideClass": "glide-01",
-  "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-  "name": "Sarah",
-  "feedImg1": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "feedImg2": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "nameID":"Sarah",
-  "caption":"lol I hate this",
-  "commentbutton": "Comment",
-},
+let jsonDatabase = [
+    {
+        "glideClass": "glide-01",
+        "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
+        "name0": "Sarah",
+        "feedImg1": "https://www.welt.de/img/vermischtes/mobile157713358/1692506607-ci102l-w1024/Young-woman-sunbathing-on-deck-of-boat.jpg",
+        "feedImg2": "https://s24193.pcdn.co/wp-content/uploads/2017/06/ThighGap.png",
+        "nameID": "Sarah",
+        "caption": "I think I won the #thighgap challenge 🤭 DM me for details if you want to look good in your bikinis in the summer!😍 #slimmingworld #weightloss #chubbygirl",
+        "commentbutton0": "Comment",
+    },
 
-{
-  "glideClass": "glide-02",
-  "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-  "name": "Sarah",
-  "feedImg1": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "feedImg2": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "nameID":"Sarah",
-  "caption":"lol I hate this",
-  "commentbutton": "Comment",
+    {
+        "glideClass": "glide-02",
+        "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
+        "name1": "Sarah",
+        "feedImg1": "https://femmesdetunisie.com/wp-content/uploads/2016/03/a4.jpg",
+        "feedImg2": "https://information.tv5monde.com/sites/info.tv5monde.com/files/styles/large/public/assets/images/Capture_decran_2016-04-04_a_12.42.23.png?itok=D7r2IAXa",
+        "nameID": "Sarah",
+        "caption": "Thanks for the nomination @dkowkd23 and @fitslim! 🤩🤩🤩 #challengeaccepted #a4waist #fit #papergirl",
+        "commentbutton1": "Comment",
 
-},
-{
-  "glideClass": "glide-03",
-  "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-  "name": "Sarah",
-  "feedImg1": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "feedImg2": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "nameID":"Sarah",
-  "caption":"lol I hate this",
-  "commentbutton": "Comment",
+    },
+    {
+        "glideClass": "glide-03",
+        "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
+        "name2": "Sarah",
+        "feedImg1": "https://s.abcnews.com/images/Lifestyle/GTY_collar_bone_sk_150617_16x9_1600.jpg",
+        "feedImg2": "https://nextshark.com/wp-content/uploads/2018/08/ttt-1280x720.jpg",
+        "nameID": "Sarah",
+        "caption": "So eh.... speaking of this #collarbonechallenge... Does my pet fish count?! #itsharmless #nofishhurt #whosnext ",
+        "commentbutton2": "Comment",
 
-},{
-  "glideClass": "glide-04",
-  "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-  "name": "Sarah",
-  "feedImg1": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "feedImg2": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "nameID":"Sarah",
-  "caption":"lol I hate this",
-  "commentbutton": "Comment",
+    }, {
+        "glideClass": "glide-04",
+        "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
+        "name3": "Sarah",
+        "feedImg1": "https://www.red17.com/pics/2015/06/65+6656+.jpg",
+        "feedImg2": "https://i2-prod.mirror.co.uk/incoming/article5866459.ece/ALTERNATES/s615/MAIN-bellybutton-challenge.jpg",
+        "nameID": "Sarah",
+        "caption": "The internet made me do it 😩😩 Is it fine if you can only wrap your right arm around but not the left arm?? #askingforafriend #itsharmless #sowhynot ",
+        "commentbutton3": "Comment",
 
-},
-{
-  "glideClass": "glide-05",
-  "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-  "name": "Sarah",
-  "feedImg1": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "feedImg2": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "nameID":"Sarah",
-  "caption":"lol I hate this",
-  "commentbutton": "Comment",
+    },
+    {
+        "glideClass": "glide-05",
+        "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
+        "name4": "Sarah",
+        "feedImg1": "https://img.gentside.com/article/buzz/le-panty-challenge-le-nouveau-defi-ridicule-qui-affole-les-reseaux-sociaux_aecf81eb866b8d1ecce6b7cba60fa8160a7b15aa.jpg",
+        "feedImg2": "https://assets.afcdn.com/story/20160706/935472_w980h638c1cx1013cy3253.jpg",
+        "nameID": "Sarah",
+        "caption": "Don't argue with me if your panties don't look like this when you pull them down 😤😤 #pantychallenge #clean",
+        "commentbutton4": "Comment",
 
-},
-{
-  "glideClass": "glide-06",
-  "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
-  "name": "Sarah",
-  "feedImg1": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "feedImg2": "https://bestprohealth.com/pure-and-natural-weight-loss/img/sarah-ig-header.png",
-  "nameID":"Sarah",
-  "caption":"lol I hate this",
-  "commentbutton": "Comment",
+    },
+    {
+        "glideClass": "glide-06",
+        "profilePic": "https://miro.medium.com/max/512/1*7tlP1ph61ompULJdycVJlQ.png",
+        "name5": "Sarah",
+        "feedImg1": "https://sf2.bibamagazine.fr/wp-content/uploads/biba/2016/04/L-iPhone-6-Challenge-le-nouveau-defi-minceur-inquietant-sur-le-web.png",
+        "feedImg2": "https://www.elitereaders.com/wp-content/uploads/2016/07/iPhone-6-Challenge.jpg",
+        "nameID": "Sarah",
+        "caption": "Are you skinny enough to hide behind an Iphone 6? If not, find out about Sarah's discovery! I lost 20Ib in the last month and living the best life ever 🤭 #skinny #beautiful #girls",
+        "commentbutton5": "Comment",
 
-}
+    }
 ]
 
 window.addEventListener('DOMContentLoaded', (event) => {
 
-  for (var i=0; i < jsonDatabase.length; i++) {
-    populateFeed(jsonDatabase[i]);
-    new Glide("." + jsonDatabase[i]["glideClass"]).mount();
+    for (var i = 0; i < jsonDatabase.length; i++) {
+        populateFeed(jsonDatabase[i], i);
+        new Glide("." + jsonDatabase[i]["glideClass"]).mount();
+        console.log(i);
+        setupCommentButton(i);
+    }
 
-  }
+    /* NOTE:
+      Because the comment buttons are generated by javascript
+      the event listener needs to be set up after they've been created. */
 
-  /* NOTE:
-    Because the comment buttons are generated by javascript
-    the event listener needs to be set up after they've been created. */
-    setupCommentButton();
 
 
 });
 
 
-function populateFeed(incomingJSON) {
+function populateFeed(incomingJSON, iteration) {
 
-  let newContentElement = document.createElement("DIV");
-  newContentElement.classList.add('feedbox');
+    let newContentElement = document.createElement("DIV");
+    newContentElement.classList.add('feedbox');
 
-  let a = document.createElement("DIV");
-  a.classList.add('profile');
-  newContentElement.appendChild(a);
+    let a = document.createElement("DIV");
+    a.classList.add('profile');
+    newContentElement.appendChild(a);
 
-  let a1 = document.createElement("IMG");
-  a1.classList.add('profilePic');
-  a1.src = incomingJSON['profilePic'];
-  a.appendChild(a1);
+    let a1 = document.createElement("IMG");
+    a1.classList.add('profilePic');
+    a1.src = incomingJSON['profilePic'];
+    a.appendChild(a1);
 
-  let a2 = document.createElement("H1");
-  a2.classList.add('name');
-  a2.innerText = incomingJSON['name'];
-  a.appendChild(a2);
+    let a2 = document.createElement("H1");
+    a2.classList.add('name');
+    a2.innerText = incomingJSON['name' + iteration];
+    a.appendChild(a2);
 
-  let b= document.createElement("DIV");
-  b.classList.add(incomingJSON['glideClass']);
-  newContentElement.appendChild(b);
+    let b = document.createElement("DIV");
+    b.classList.add(incomingJSON['glideClass']);
+    newContentElement.appendChild(b);
 
-  let b1= document.createElement("DIV");
-  b1.classList.add('glide__track');
-  b1.setAttribute("data-glide-el", "track");
-  b.appendChild(b1);
+    let b1 = document.createElement("DIV");
+    b1.classList.add('glide__track');
+    b1.setAttribute("data-glide-el", "track");
+    b.appendChild(b1);
 
-  let b1_1 = document.createElement("UL");
-  b1_1.classList.add('glide__slides');
-  b1.appendChild(b1_1);
-
-
-//////
-  let b1_2 = document.createElement("LI");
-  b1_2.classList.add('glide__slide');
-  b1_1.appendChild(b1_2);
-
-  let b1_2_1 = document.createElement("IMG");
-  b1_2_1.classList.add('feedImg');
-  b1_2_1.src= incomingJSON['feedImg1'];
-  b1_2.appendChild(b1_2_1);
-  ////////
-
-  let b1_3 = document.createElement("LI");
-  b1_3.classList.add('glide__slide');
-  b1_1.appendChild(b1_3);
-
-  let b1_3_1 = document.createElement("IMG");
-  b1_3_1.classList.add('feedImg');
-  b1_3_1.src= incomingJSON['feedImg2'];
-  b1_3.appendChild(b1_3_1);
-
-  let likeButtonContainer = document.createElement("DIV");
-  likeButtonContainer.classList.add('likeButtonContainer');
-  newContentElement.appendChild(likeButtonContainer);
-
-  let likeButton = document.createElement("BUTTON");
-  likeButton.setAttribute("id", "likeButton");
-  likeButton.setAttribute("onclick", "check()");
-  likeButtonContainer.appendChild(likeButton);
-
-  let icon= document.createElement("I");
-  icon.classList.add("fas", "fa-heart", "fa-2x");
-  likeButton.appendChild(icon);
-
-  let c = document.createElement("DIV");
-  c.classList.add('captionContainer');
-  newContentElement.appendChild(c);
-
-  let c1 = document.createElement("H5");
-  c1.classList.add('nameID');
-  c1.innerText = incomingJSON['nameID'];
-  c.appendChild(c1);
-
-  let c2 = document.createElement("P");
-  c2.classList.add('caption');
-  c2.innerText = incomingJSON['caption'];
-  c.appendChild(c2);
-
-  let commentsOutput = document.createElement("DIV");
-  commentsOutput.setAttribute("id", "commentsOutput");
-  newContentElement.appendChild(commentsOutput);
-
-  let d= document.createElement("DIV");
-  d.classList.add('comments');
-  newContentElement.appendChild(d);
-
-  let e = document.createElement("INPUT");
-  e.setAttribute("type", "text");
-  e.setAttribute("id", "name");
-  d.appendChild(e);
-
-  let f = document.createElement("BUTTON");
-  f.setAttribute("id", "commentButton");
-  // f.setAttribute("onclick", "hi()");
-  f.innerText = incomingJSON['commentbutton'];
-  d.appendChild(f);
+    let b1_1 = document.createElement("UL");
+    b1_1.classList.add('glide__slides');
+    b1.appendChild(b1_1);
 
 
-  feedGridElement.appendChild(newContentElement);
+    //////
+    let b1_2 = document.createElement("LI");
+    b1_2.classList.add('glide__slide');
+    b1_1.appendChild(b1_2);
+
+    let b1_2_1 = document.createElement("IMG");
+    b1_2_1.classList.add('feedImg');
+    b1_2_1.src = incomingJSON['feedImg1'];
+    b1_2.appendChild(b1_2_1);
+    ////////
+
+    let b1_3 = document.createElement("LI");
+    b1_3.classList.add('glide__slide');
+    b1_1.appendChild(b1_3);
+
+    let b1_3_1 = document.createElement("IMG");
+    b1_3_1.classList.add('feedImg');
+    b1_3_1.src = incomingJSON['feedImg2'];
+    b1_3.appendChild(b1_3_1);
+
+    let likeButtonContainer = document.createElement("DIV");
+    likeButtonContainer.classList.add('likeButtonContainer');
+    newContentElement.appendChild(likeButtonContainer);
+
+    let likeButton = document.createElement("BUTTON");
+    likeButton.setAttribute("id", "likeButton");
+    likeButton.setAttribute("onclick", "check()");
+    likeButtonContainer.appendChild(likeButton);
+
+    let icon = document.createElement("I");
+    icon.classList.add("fas", "fa-heart", "fa-2x");
+    likeButton.appendChild(icon);
+
+    let c = document.createElement("DIV");
+    c.classList.add('captionContainer');
+    newContentElement.appendChild(c);
+
+    let c1 = document.createElement("H5");
+    c1.classList.add('nameID');
+    c1.innerText = incomingJSON['nameID'];
+    c.appendChild(c1);
+
+    let c2 = document.createElement("P");
+    c2.classList.add('caption');
+    c2.innerText = incomingJSON['caption'];
+    c.appendChild(c2);
+
+    let commentsOutput = document.createElement("DIV");
+    commentsOutput.setAttribute("id", "commentsOutput" + iteration);
+    newContentElement.appendChild(commentsOutput);
+
+    let d = document.createElement("DIV");
+    d.classList.add('comments');
+    newContentElement.appendChild(d);
+
+    let e = document.createElement("INPUT");
+    e.setAttribute("type", "text");
+    e.setAttribute("id", "name" + iteration);
+    e.style.width= "85%";
+    e.style.height= "5vmin";
+
+
+    d.appendChild(e);
+
+    let f = document.createElement("BUTTON");
+    f.setAttribute("id", "commentButton" + iteration);
+    f.innerText = incomingJSON['commentbutton' + iteration];
+    d.appendChild(f);
+
+
+    feedGridElement.appendChild(newContentElement);
 }
 
 
-function setupCommentButton() {
+function setupCommentButton(iteration) {
+    // console.log(iteration);
 
-  var commentsOutput = document.getElementById("commentsOutput");
-  var e = document.getElementById("name");
-  var f = document.getElementById("commentButton");
+    var commentsOutput = document.getElementById("commentsOutput" + iteration).innerText;
+    var e = document.getElementById("name" + iteration);
+    var f = document.getElementById("commentButton" + iteration);
 
-  f.addEventListener("click", hi);
+    f.addEventListener("click", hi);
 
-  let commentsArray= [];
+    let commentsArray = [];
 
-  commentsOutput.appendChild(commentsArray[0]);
+    // commentsOutput.appendChild(commentsArray[0]);
 
 }
 
-function hi() {
+function hi(event) {
 
-  var e = document.getElementById("name");
-  var commentsOutput = document.getElementById("commentsOutput");
+// give whatever element is generated in the event
+    var num = event.srcElement.id.split("commentButton")[1];
+    var e = document.getElementById("name" + num);
+    var commentsOutput = document.getElementById("commentsOutput" + num);
 
     let newParagraph = document.createElement("P");
     newParagraph.classList.add("newParagraph");
     newParagraph.innerHTML = e.value + "<br>";
     commentsOutput.appendChild(newParagraph);
 
-    commentsArray.push(newParagraph);
+    alert("Body-shaming statistics indicate that 94 percent of teenage girls and 65 percent of teenage boys have been body shamed."+"\r\n" +"\r\n" + "Is your comment derogatory and hurtful?" +"\r\n" +"\r\n" + "Let's be mindful of what we post.");
+
+    // commentsArray.push(newParagraph);
 
     var likeButton = document.getElementById("likeButton");
 
@@ -226,6 +235,6 @@ function hi() {
 
 function check() {
 
-  alert ("hihihi");
-  console.log("working");
+    alert("87% of women and 65% of men compare their bodies to images they consume on social and traditional media. In that comparison, a stunning 50% of women and 37% of men compare their bodies unfavorably." +"\r\n" +"\r\n" + "Do you still want to contribute to this post getting more publicity?");
+    console.log("working");
 }
