@@ -18,7 +18,7 @@
 $(document).ready(function(){
     $('#typewriteTextt').typewrite({
 
-      blinkingCursor: false,
+      // blinkingCursor: false,
         actions: [
             {type: 'Hello,'},
             {type: '<br>'},
@@ -41,14 +41,12 @@ $(document).ready(function(){
     $('#typewriteText2').typewrite({
       speed: 20,
       selectedText: '#cf1f1f',
-      blinkingCursor: false,
-
 
         actions: [
-            {type: 'Social media is a big part of many people\'s lives.'},
+            {type: 'Social media is a big part of many teen\'s lives.'},
             {type: '<br>'},
             {delay: 1500},
-            {type: 'It can provide us with a platform to connect'},
+            {type: 'It can provide them with a platform to connect'},
             {type: '<br>'},
             {type: '<br>'},
             {delay: 1500},
@@ -56,19 +54,19 @@ $(document).ready(function(){
             {type: '<br>'},
             {type: '<br>'},
             {delay: 1500},
-            {type: 'it can also affect our self-esteem by presenting social media\'s own definition of what is '},
+            {type: 'it can also affect their self-esteem by presenting social media\'s own definition of what is '},
             {type: '<br>'},
             {type: '<br>'},
-            {delay: 1500},
+            {delay: 700},
             {type: '“perfect” or “beautiful”. '},
-            {select: {from:201, to: 234}}
+            {select: {from:203, to: 234}}
         ]
     });
 });
 
 $(document).ready(function(){
     $('#typewriteText3').typewrite({
-      speed: 20,
+      speed: 18,
       selectedText: '#cf1f1f',
 
         actions: [
@@ -80,11 +78,11 @@ $(document).ready(function(){
             {type: '<br>'},
             {type: '<br>'},
             {type: '<br>'},
-            {delay: 3000},
+            {delay: 1000},
             {type: 'Would you like to experience what it means to be exposed to ...'},
             {type: '<br>'},
             {type: '<br>'},
-            {delay: 3000},
+            {delay: 1500},
             {type: 'the social media\'s ideal "beauty"?'},
             {select: {from:201, to: 235}}
         ]
@@ -120,7 +118,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('#typewriteText5').typewrite({
-      speed: 12,
+      speed: 15,
       selectedText: '#cf1f1f',
 
         actions: [
@@ -145,7 +143,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('#typewriteText6').typewrite({
-      speed: 12,
+      speed: 18,
       selectedText: '#cf1f1f',
 
         actions: [

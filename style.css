@@ -22,7 +22,7 @@ html, body {
   /* transition: all 2s; */
 }
 
-#firstcontainer {
+.firstcontainer {
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -71,7 +71,7 @@ html, body {
 }
 
 
-.button, .button2, .button3, .button4, .button6 {
+#button, #button2, .button3, #button4, #button6, #button7 {
   font-family: 'Roboto Mono', monospace;
   background-color: white;
   border: 0.3vmin solid #2e2e2e;
@@ -88,36 +88,36 @@ html, body {
 
 }
 
-.button {
+#button {
     animation: appear 9s;
 }
 
-.button2 {
-    animation: appear 20s;
+#button2 {
+    animation: appear 18s;
+}
+
+#button7 {
+  animation: appear 15s;
 }
 
 .button3 {
   margin-right: 5vmin;
-  animation: appear 20s;
+  animation: appear 18s;
 
 }
 
-.button4 {
+/* #button4 {
   animation: appear 25s;
+} */
+
+#button6 {
+  animation: appear 20s;
 }
 
-.button6 {
-  animation: appear 28s;
-}
-
-.button:active, .button2:active, .button3:active, .button5:active, .button6:active{
+#button:active, #button2:active, .button3:active, #button4:active #button5:active, #button6:active,  #button7:active{
   transform: translate(0.2vmin,0.5vmin);
 }
 
-#button4:active {
-  transform: translate(0.2vmin,0.5vmin);
-
-}
 
 #button4 {
   font-family: 'Roboto Mono', monospace;
@@ -153,9 +153,19 @@ html, body {
   font-size: 1.5vmin;
   cursor: pointer;
   width: 100%;
+
+  animation: bounce 1s infinite ease-In;
 }
 
-.text {
+@keyframes bounce {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.03);}
+  100% {transform: scale(1);}
+
+
+}
+
+#text {
   font-family: 'Roboto Mono', monospace;
   color: black;
 

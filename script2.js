@@ -41,7 +41,7 @@ let jsonDatabase = [
         "feedImg1": "https://www.red17.com/pics/2015/06/65+6656+.jpg",
         "feedImg2": "https://i2-prod.mirror.co.uk/incoming/article5866459.ece/ALTERNATES/s615/MAIN-bellybutton-challenge.jpg",
         "nameID": "monogramslim22",
-        "caption": "The internet made me do it 😩😩 Is it fine if you can only wrap your right arm around but not the left arm?? #askingforafriend #itsharmless #sowhynot ",
+        "caption": "The internet made me do it 😩😩 Is it fine if you can only wrap your left arm around but not the right arm?? #askingforafriend #itsharmless #sowhynot ",
         "commentbutton3": "Comment",
 
     },
