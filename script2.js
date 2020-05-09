@@ -197,6 +197,7 @@ function populateFeed(incomingJSON, iteration) {
 function setupCommentButton(iteration) {
     // console.log(iteration);
 
+    // add iteration so that unique and individual commentsOutput is updated for each feed
     var commentsOutput = document.getElementById("commentsOutput" + iteration).innerText;
     var e = document.getElementById("name" + iteration);
     var f = document.getElementById("commentButton" + iteration);
@@ -215,6 +216,8 @@ function hi(event) {
     var num = event.srcElement.id.split("commentButton")[1];
     var e = document.getElementById("name" + num);
     var commentsOutput = document.getElementById("commentsOutput" + num);
+//
+// code from 221-224 referred to Chris's Javascsript Libraries assignment: - Chris Mancini: https://cmm1156.github.io/js-library-2/
 
     let newParagraph = document.createElement("P");
     newParagraph.classList.add("newParagraph");
